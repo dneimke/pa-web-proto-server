@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    .body-content {
+        padding-top: 50px;
+    }
+}
+
+#bs-navbar {
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    height: 64px;
+}
+
+.sidenav {
+    position: fixed;
+    top: 124px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    min-width: 120px;
+    background-color: #fafafa;
+    box-shadow: 6px 0 6px rgba(0,0,0,.1);
+    height: calc(100vh - 64px);
+}
