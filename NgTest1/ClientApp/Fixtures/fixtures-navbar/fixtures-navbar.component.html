@@ -1,14 +1,19 @@
-<div class='main-nav'>
-    <ul class='nav navbar-nav'>
-        <li [routerLinkActive]="['link-active']">
-            <a [routerLink]="['/fixtures']">
-                <span class='glyphicon glyphicon-home'></span> Current
-            </a>
-        </li>
-        <li [routerLinkActive]="['link-active']">
-            <a [routerLink]="['/fixtures/round']">
-                <span class='glyphicon glyphicon-home'></span> By Round
-            </a>
-        </li>
-    </ul>
+
+<div class='main-nav sidenav'>
+    <div class='navbar '>
+        <div class='navbar-collapse collapse'>
+            <ul class='nav nav-pills nav-stacked'>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/fixtures']">
+                        <span class='glyphicon glyphicon-th-list'></span> Current
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/fixtures/round']">
+                        <span class='glyphicon glyphicon-th-list'></span> By Round
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>

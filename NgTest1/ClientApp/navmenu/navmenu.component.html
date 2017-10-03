@@ -1,20 +1,15 @@
 <div class='main-nav sidenav'>
-    <div class='navbar navbar-inverse'>
+    <div class='navbar'>
         <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/home']">
-                        <span class='glyphicon glyphicon-home'></span> Home
-                    </a>
-                </li>
+            <ul class='nav nav-pills nav-stacked'>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/counter']">
-                        <span class='glyphicon glyphicon-education'></span> Counter
+                        <span class='glyphicon glyphicon-scale'></span> Counter
                     </a>
                 </li>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/fetch-data']">
-                        <span class='glyphicon glyphicon-th-list'></span> Fetch data
+                        <span class='glyphicon glyphicon-cloud'></span> Weather
                     </a>
                 </li>
             </ul>
